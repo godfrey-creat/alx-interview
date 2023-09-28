@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+
 def generate_pascals_triangle(n):
     if n <= 0:
         return []
@@ -16,9 +16,4 @@ def generate_pascals_triangle(n):
         triangle.append(new_row)
 
     return triangle
-
-# Example usage
-n = 12
-result = generate_pascals_triangle(n)
-print(result)
 
